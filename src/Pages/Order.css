@@ -1,0 +1,25 @@
+.order{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+    /* padding-top: 110px; */
+  
+  }
+  
+  .order button{
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+  .active button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+  

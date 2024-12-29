@@ -1,0 +1,11 @@
+li{
+    list-style: none;
+    cursor: pointer;
+    font-weight: 550;
+    font-size: 18px;
+    color: black;
+  }
+  a{
+    text-decoration: none;
+  }
+  

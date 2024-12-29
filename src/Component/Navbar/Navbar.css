@@ -1,0 +1,149 @@
+/*Navbar*/
+
+
+.logo h4{
+  font-size: 45px;
+  font-weight: bold;
+  color:red;
+
+}
+
+.navbarsection{
+    .header{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 80px;
+      width: 100%;
+      padding: 1rem;
+      z-index:1000;
+      
+      .navlists{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 35px;
+      padding-top: 10px;
+    }
+    .navitem{
+      color:white;
+    }
+    .closebar{
+      display: none;
+    }
+    .toggleNavbar{
+      display: none;
+    }
+    a:hover{
+      color:orangered;  
+      font-weight: bold;
+    }
+    .navlink{
+      color:black;
+      font-size: 15px;
+      font-weight:bold;
+      
+    }
+    .cart-coun{
+      display: none;
+    }
+    /*media Queries*/
+    
+    @media only screen and (max-width:976px){
+      
+      .logo h4{
+        font-size: 52px;
+        font-weight: bold;
+        color: red;
+      }
+      .logospan{
+        color: orangered;
+        font-size: 28px;
+        width: 50%;
+        font-weight: bold;
+      }
+      .navbar{
+        background: whitesmoke;
+        position: absolute;
+        height: max-content;
+        padding: 5rem;
+        width: 100%;
+        top:0px;
+        right: 77700%;
+  
+        box-shadow: 0 2px 4px rgba(209,209,209,0.904);
+        transition: .10s ease;
+        z-index: 1000;
+      }
+      .navlists{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 50px;
+      } 
+      .logo{
+        position: absolute;
+        left: 1rem;
+        margin-top: -32px;
+      }
+      .toggleNavbar{
+      position: absolute;
+      right: 1.5rem;
+      padding-top: -45px;
+      padding-left: 200px;
+    }
+
+    .navlink{
+      color:black;
+      font-size: 1rem;
+    }
+    a:hover{
+      color:orangered ;  
+      font-weight: bold;
+      }
+      
+      .closebar{
+        cursor: pointer;
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+      }
+      
+      .activeNavbar{
+        left:0;
+      }
+      .closebar{
+        display: block;
+      }
+      .toggleNavbar{
+      display: block;
+    }
+    .cart-coun{
+      border-radius: 120%;
+  color: red;
+  font-weight:900;
+ 
+background-color: lawngreen;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  padding:3px;
+  font-size: 17px;
+  border-top-right-radius: 50%;
+  text-align: center;
+    }
+    
+  }
+  
+  
+    }
+
+
+    .activeHeader{
+      
+      background: #fff;
+      box-shadow: 0 2px 5px 2px rgba(178, 178,178,0.45);
+    }
+
+}

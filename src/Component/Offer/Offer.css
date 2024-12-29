@@ -1,0 +1,32 @@
+.offersection{
+  background-image: url("https://img.freepik.com/premium-photo/pizza-web-banner-with-copy-space-generative-ai_653240-1985.jpg");
+    width: 100%;
+    height: 470px;
+    background-size: cover;
+  }
+  .offer{
+
+    padding-top: 150px;
+    font-size: 25px;
+    font-weight: 550;
+  }
+  .offer span{
+    
+    color:red;
+    font-size: 70px;
+    font-weight: bold;
+  }
+  .offer p span{
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .offerimg img{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+  }
+  .homeimg{
+    margin-left: 360px;
+    
+  }

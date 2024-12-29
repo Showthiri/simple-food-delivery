@@ -1,0 +1,157 @@
+
+
+.cart-count{
+    background-color: yellowgreen;
+    border-radius: 50%;
+    border-top-right-radius: 10%;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    padding:3px;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .cart-coun{
+  
+    border-radius: 120%;
+    color: red;
+    font-weight:900;
+   
+  
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    padding:3px;
+    font-size: 17px;
+    text-align: center;
+  }
+  .home{
+   /* background-image: url("https://png.pngtree.com/back_origin_pic/03/91/31/216a8c258305188af56217c3b58b99c5.jpg"); */
+   background-image: url("https://images6.alphacoders.com/870/thumb-1920-870777.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-blend-mode: lighten; */
+   /* background-position: bottom; */
+    height: 790px;  
+  }
+  
+  .main{
+    color: #fff;
+    padding-top: 280px;
+    font-size: 27px;
+  }
+  
+  .main h2{
+    color:#ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+     }
+     .main span{
+      color: #ff0000;
+     }
+     #location{
+       font-size: 20px;
+       height: 45px;
+       padding: 3px;
+       
+      }
+      
+      .select{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        font-size: 23px;
+      }
+      
+      #max{
+        font-size: 20px;
+        height: 45px;
+        padding: 3px; 
+      }
+      .home-btn{
+        color:black;border: none;
+        border-radius: 10%;
+        padding: 5px;
+        font-size: 19px;
+        
+      }
+  .sugges{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+  }
+  
+  .autocomplete-suggestions ul{
+
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    color:red;
+    font-weight: bold;
+    padding-right: 30px;
+    
+  
+    
+  }
+  .autocomplete-suggestions ul li:hover{
+  
+    color:green;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  .menu{
+    margin-top: 32px;
+    background-color: #fff;
+  }
+  @media only screen and (max-width:628px){
+   
+    .select{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+     
+     }
+     #max{
+      height: 50px;
+      padding: 3px;
+    
+    
+    }
+  }
+  .col{
+    margin-top: 50px;
+  }
+  .col img{
+    height: 190px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  .con {
+  
+    color: #000;
+    
+  }
+  .con:hover{
+    cursor: pointer;
+    
+  }
+  .menu-btn{
+    margin-top: 50px;
+      background-color:red;
+      color: #fff;border: none;
+      border-radius: 10%;
+      padding: 9px;
+      font-size: 30px;
+      letter-spacing: 7px;
+      cursor: pointer;
+  }
+  
+  

@@ -1,0 +1,38 @@
+.homeofffer{
+    background-image: url("https://img.freepik.com/premium-photo/board-with-spices-black-board-with-border-that-says-spices-spices_861161-9185.jpg");
+    /* height:max-content; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.h1offer{
+    padding-top: 30px;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+.h1offer h1{
+    color: white;
+    font-weight: bold;
+    font-size:40px;
+}
+.h1offer span{
+    color: red;
+}
+
+.homeofferimg img{
+    height: 300px;
+}
+.OFFIMG{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 90px;
+    padding-bottom: 20px;
+}
+.h1offer button{
+    border-radius: 50px;
+}
