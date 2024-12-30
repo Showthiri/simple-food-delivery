@@ -15,10 +15,11 @@
 .h1offer h1{
     color: white;
     font-weight: bold;
-    font-size:40px;
+    font-size:20px;
 }
 .h1offer span{
-    color: red;
+    color: gold;
+    font-weight: bold;
 }
 
 .homeofferimg img{

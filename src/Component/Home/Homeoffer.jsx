@@ -5,7 +5,7 @@ const Homeoffer = () => {
   return (
     <div className="homeofffer">
        <Link to="/Offer"><div className="h1offer">
-           <button><h1>OFFER <span>F00D</span> WEEKEND OFFER</h1></button>  
+           <button><h5>OFFER <span>F00D</span> WEEKEND OFFER</h5></button>  
             </div>
             </Link>
             <div className="OFFIMG">
