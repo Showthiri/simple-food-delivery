@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 import data4 from './Sandwitch.json'
 import { Product } from '../Foodorder/Product'
@@ -7,6 +7,10 @@ import { Order } from '../../Pages/Order'
 
 export const Sandwitch = ({cart, setCart}) => {
     const [productss]=useState(data4)
+
+    useEffect(()=>{
+                window.scrollTo(0,0);
+              }, []);
   return (
     <>
     <Order/>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import data from './Offerfood.json'
 import data1  from './Food.json'
 import { Product } from '../Foodorder/Product'
@@ -7,6 +7,9 @@ import { Order } from '../../Pages/Order'
 export const North = ({cart, setCart}) => {
     const [products]=useState(data)
     const [productss]=useState(data1)
+    useEffect(()=>{
+                window.scrollTo(0,0);
+              }, []);
     return (
 <>
       <Order/>

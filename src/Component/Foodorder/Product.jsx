@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Product.css'
 export const Product = ({product,cart,setCart}) => {
 
@@ -11,6 +11,10 @@ export const Product = ({product,cart,setCart}) => {
       setCart(cart.filter((c)=>c.id !== product.id));
     };
     console.log(product)
+
+    useEffect(()=>{
+                window.scrollTo(0,0);
+              }, []);
   return (
     <div className='product '>
         <div className="img">

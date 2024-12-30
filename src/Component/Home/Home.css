@@ -27,19 +27,18 @@
     text-align: center;
   }
   .home{
-   /* background-image: url("https://png.pngtree.com/back_origin_pic/03/91/31/216a8c258305188af56217c3b58b99c5.jpg"); */
+/* background-image: url("https://d3ox4wjkl7mf3m.cloudfront.net/feed_stories/shutterstock_1304901061.jpg"); */
    background-image: url("https://images6.alphacoders.com/870/thumb-1920-870777.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    /* background-blend-mode: lighten; */
-   /* background-position: bottom; */
     height: 790px;  
   }
   
   .main{
     color: #fff;
     padding-top: 280px;
+    padding-bottom: 50px;
     font-size: 27px;
   }
   

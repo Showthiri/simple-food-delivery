@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 import data2 from './Briyani.json'
 import { Product } from '../Foodorder/Product'
@@ -7,6 +7,12 @@ import { Order } from '../../Pages/Order'
 export const Briyani = ({cart, setCart}) => {
 
     const [productss]=useState(data2)
+
+
+
+     useEffect(()=>{
+            window.scrollTo(0,0);
+          }, []);
   return (
     <>
       <Order/>

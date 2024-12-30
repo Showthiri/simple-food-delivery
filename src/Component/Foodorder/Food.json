@@ -37,7 +37,7 @@
     {
         "id":6,
         "img":"https://b.zmtcdn.com/data/pictures/4/20802874/7e168e969cbe6672e867dcf08e460da2_o2_featured_v2.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
-        "topic":"Heaven Shack",
+        "topic":"Fries",
         "author": "North, Madurai",
         "amt":"80"
     },
@@ -57,15 +57,15 @@
     },
     {
         "id":9,
-        "img":"",
-        "topic":"Manvar",
+        "img":"https://b.zmtcdn.com/data/dish_photos/182/6d38d1826e83a101fb41c151e8bdf182.jpeg",
+        "topic":"Paneer Tikka Rice Bowl",
         "author": "Northindia,madurai",
         "amt":"80"
     },
     {
         "id":10,
-        "img":"",
-        "topic":"Manvar",
+        "img":"https://b.zmtcdn.com/data/dish_photos/5ad/998f8ab64b3332f182e2ed39a5d6f5ad.jpg",
+        "topic":"Poori",
         "author": "Northindia,madurai",
         "amt":"80"
     }

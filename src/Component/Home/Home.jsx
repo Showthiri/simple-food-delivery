@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Home.css'
 import { Menu } from './Menu';
 import Homeoffer from './Homeoffer';
@@ -42,6 +42,11 @@ const Home = () => {
       setQuery(suggestion);
       setSuggestions([]); // Hide suggestions after selection
     };
+
+     useEffect(()=>{
+        window.scrollTo(0,0);
+      }, []);
+    
   return (
     <>
        <div className="home">

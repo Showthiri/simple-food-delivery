@@ -19,7 +19,7 @@ const Navbar = ({ cart }) => {
 
   // Update header background on scroll
   const addBg = () => {
-    if (window.scrollY >= 10) {
+    if (window.scrollY >= 2) {
       setTransparent('header activeHeader');
     } else {
       setTransparent('header');
@@ -27,6 +27,12 @@ const Navbar = ({ cart }) => {
   };
 
   // Event listener for scroll
+  useEffect(()=>{
+    window.scrollTo(0,0);
+  }, []);
+
+
+
   useEffect(() => {
     window.addEventListener('scroll', addBg);
     return () => {
@@ -49,9 +55,9 @@ const Navbar = ({ cart }) => {
     <section className="navbarsection">
       <div className={transparent}>
         <div className="logodiv w-50">
-          <a href="/" className="logo">
+          <NavLink to="/" className="logo">
             <h4>F00D</h4>
-          </a>
+          </NavLink>
         </div>
 
        
@@ -83,14 +89,14 @@ const Navbar = ({ cart }) => {
               </li>
             )}
             <li>
-              <Link to="/sig">
+              <NavLink to="/sig">
                 <button className="btn btn-warning">Sign up</button>
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/logi">
+              <NavLink to="/logi">
                 <button className="btn btn-warning">Login</button>
-              </Link>
+              </NavLink>
             </li>
           </ul>
 
